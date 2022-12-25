@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@color/blueviolet" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/title"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--binary-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_0"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_0"
+                android:background="@color/orange"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Binary"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_0"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_0"
+                android:src="@drawable/binary_icon" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--cartoon-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_1"
+                android:src="@drawable/cartoon_icon" />
+
+            <Button
+                android:id="@+id/btn_1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_1"
+                android:background="@color/royalblue"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Cartoon"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--concave-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_2"
+                android:background="@color/darkturquoise"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Concave"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_2"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_2"
+                android:src="@drawable/concave_icon"/>
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--convex-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_3"
+                android:src="@drawable/convex_icon" />
+
+            <Button
+                android:id="@+id/btn_3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_3"
+                android:background="@color/colorAccent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Convex"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--emboss-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_4"
+                android:background="@color/pink"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Emboss"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_4"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_4"
+                android:src="@drawable/emboss_icon" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--frosted glass-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_5"
+                android:src="@drawable/frosted_glass_icon" />
+
+            <Button
+                android:id="@+id/btn_5"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_5"
+                android:background="@color/yellow"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Frosted Glass"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_5"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--LUT-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_6"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_6"
+                android:background="@color/lightcoral"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="LUT"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_6"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_6"
+                android:src="@drawable/lut_icon" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--nostalgia-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_7"
+                android:src="@drawable/nostalgia_icon" />
+
+            <Button
+                android:id="@+id/btn_7"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_7"
+                android:background="@color/gray"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Nostalgia"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_7"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--pixelate-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_8"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_8"
+                android:background="@color/lightgrey"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Pixelate"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_8"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_8"
+                android:src="@drawable/pixelate_icon" />
+
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--segment-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_9"
+                android:src="@drawable/segment_icon" />
+
+            <Button
+                android:id="@+id/btn_9"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_9"
+                android:background="@color/lightslategrey"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Segment"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_9"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+        </RelativeLayout>
+        <!--isolation-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <!--sharpen-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"/>
+
+            <Button
+                android:id="@+id/btn_10"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toLeftOf="@+id/mid_10"
+                android:background="@color/lightcyan"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="SHarpen"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mid_10"
+                android:layout_centerHorizontal="true"
+                android:layout_width="15dp"
+                android:layout_height="160dp" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/mid_10"
+                android:src="@drawable/sharpen_icon" />
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/str_copyright"
+            android:textColor="@color/snow"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</ScrollView>

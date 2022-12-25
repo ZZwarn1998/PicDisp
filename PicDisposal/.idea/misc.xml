@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15833333333333333" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12314814814814815" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/drawable/oval.xml" value="0.2890625" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_binary.xml" value="0.25" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_carton.xml" value="0.18568840579710144" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_cartoon.xml" value="0.25" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_concave.xml" value="0.18568840579710144" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_convex.xml" value="0.18568840579710144" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_emboss.xml" value="0.18568840579710144" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_frosted_glass.xml" value="0.28423475258918296" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_lut.xml" value="0.11" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_nostalgia.xml" value="0.14270833333333333" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_pixelate.xml" value="0.375" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_segment.xml" value="0.165" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_sharpen.xml" value="0.14270833333333333" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/activity_start.xml" value="0.125" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/disposal_type1.xml" value="0.1956521739130435" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/menu.xml" value="0.165" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/layout/spinner_item.xml" value="0.18432971014492755" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12314814814814815" />
+        <entry key="..\:/androidProj/PicDisposal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12314814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

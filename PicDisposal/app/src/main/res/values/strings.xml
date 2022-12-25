@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PicDisposal</string>
+    <string name="title">PicDisposal</string>
+    <string name="str_copyright">Copyright \u00a9 2022-2023 zzwarn</string>
+    <string-array name="look_up_tables">
+        <item>null</item>
+        <item>crystallize</item>
+        <item>diff-clouds</item>
+        <item>faux-heat</item>
+        <item>fibers</item>
+        <item>halftone</item>
+        <item>invert</item>
+        <item>pointellize</item>
+        <item>rect-to-polar</item>
+        <item>solarize</item>
+        <item>wind_stagger</item>
+        <item>90deg</item>
+        <item>180deg</item>
+        <item>bw1</item>
+    </string-array>
+</resources>
